@@ -1,0 +1,13 @@
+.cardComponent .top {
+  display: flex;
+  align-items: center;
+}
+.cardComponent .top span {
+  display: block;
+  width: 6px;
+  height: 26px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  margin-right: 10px;
+  color: #f7bf57;
+}

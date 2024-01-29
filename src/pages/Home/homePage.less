@@ -1,0 +1,231 @@
+.homePage {
+    height: 100%;
+
+    .dataSummary {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+
+        .data-box {
+            padding: 30px;
+            box-sizing: border-box;
+            align-items: center;
+            display: flex;
+            width: 285px;
+            height: 141px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(242, 242, 242, 1);
+            border: 1px solid rgba(242, 242, 242, 1);
+        }
+
+        .imgBox {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            position: relative;
+            margin-right: 20px;
+
+            img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin: auto;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .data {
+            position: relative;
+            top: 10px;
+            span {
+                color: #ccc;
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .chartAndRemind {
+        height: 451px;
+        display: flex;
+        justify-content: space-between;
+
+        >div {
+            border-radius: 12px;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+            cursor: pointer;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(242, 242, 242, 1);
+            border: 1px solid rgba(242, 242, 242, 1);
+        }
+
+        .chart {
+            width: 840px;
+            margin-right: 20px;
+        }
+
+        .remind {
+            flex: 1;
+
+            .ant-divider {
+                margin: 0;
+            }
+
+            .remind-content {
+                padding-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                border-top: 1px solid rgba(242, 242, 242, 1);
+                >div{
+                    position: relative;
+                    top: 10px;
+                }
+                span {
+                    font-size: 18px;
+                }
+
+                p {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    color: #a4a4a4;
+                }
+
+                img {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }
+
+    }
+
+    .tagAndAbnormal {
+        display: flex;
+        margin: 20px 0;
+
+        >div {
+            box-sizing: border-box;
+            padding: 20px;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .tag {
+            width: 340px;
+            // height: 384px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(242, 242, 242, 1);
+            border: 1px solid rgba(242, 242, 242, 1);
+            margin-right: 20px;
+
+            .tag-content {
+                .tag-number {
+                    display: flex;
+                    justify-content: space-between;
+                    position: relative;
+                    top: 8px;
+                }
+            }
+        }
+
+        .abnormal {
+            flex: 1;
+
+            .abnormal-box {
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+
+                .abnormal-content {
+                    display: flex;
+                    padding: 20px;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 230px;
+                    height: 280px;
+                    background-color: rgba(255, 255, 255, 1);
+                    box-sizing: border-box;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: rgba(242, 242, 242, 1);
+                    border-radius: 8px;
+                    box-shadow: 0px 0px 15px rgba(242, 242, 242, 1);
+
+                    >img {
+                        width: 84px;
+                        height: 84px;
+                        border-radius: 42px;
+                        margin-bottom: 10px;
+                    }
+
+                    .resdient-info {
+                        position: relative;
+                        left: 5px;
+                        p {
+                            font-size: 20px;
+
+                            span {
+                                font-size: 14px;
+                                color: #ccc;
+                                margin: 0 10px;
+                            }
+                        }
+
+                        .abnormal-detail {
+                            position: relative;
+                            left: 10px;
+                            span{
+
+                                color: #FA746B;
+                            }
+                        }
+                        button{
+                            position: relative;
+                            left: 10px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .signOverview {
+        width: 100%;
+        height: 474px;
+        box-sizing: border-box;
+        padding: 20px;
+        border-radius: 12px;
+
+        table {
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(242, 242, 242, 1);
+            border: 1px solid rgba(242, 242, 242, 1);
+            margin-top: 20px;
+
+            th {
+                width: 200px;
+                height: 60px;
+            }
+
+            td {
+                text-align: center;
+                height: 60px;
+                line-height: 60px;
+                border-top: 1px solid rgba(242, 242, 242, 1);
+            }
+        }
+    }
+}

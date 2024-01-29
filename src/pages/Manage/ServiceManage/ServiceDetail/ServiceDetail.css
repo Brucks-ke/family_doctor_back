@@ -1,0 +1,182 @@
+.serverdetail {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.serverdetail .top {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.serverdetail .top .icon {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bolder;
+  transform: rotate(-30deg);
+  margin-left: 30px;
+}
+.serverdetail .top span {
+  display: block;
+  width: 6px;
+  height: 26px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  margin-right: 10px;
+  color: #f7bf57;
+}
+.serverdetail .tbox {
+  font-size: 12px;
+  width: 100%;
+  height: 220px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.serverdetail .tbox p {
+  font-size: 14px;
+  padding: 8px;
+}
+.serverdetail .tbox .oneRow {
+  width: 100%;
+  height: 48px;
+  display: flex;
+}
+.serverdetail .tbox .oneRow > div {
+  width: 24%;
+  height: 100%;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+.serverdetail .tbox .oneRow > div span {
+  display: block;
+}
+.serverdetail .tbox .oneRow > div .title {
+  width: 60px;
+  color: gray;
+}
+.serverdetail .tbox .oneRow1 > div {
+  width: 33%;
+}
+.serverdetail .tbox .oneRow1 > div .title {
+  display: block;
+  width: 70px;
+  color: gray;
+}
+.serverdetail .tbox .oneRow1 > div button {
+  width: 50px;
+  height: 20px;
+  border: none;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.serverdetail .tbox .family {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+.serverdetail .tbox .family .title {
+  display: block;
+  color: gray;
+  width: 80px;
+}
+.serverdetail .tbox .family .one {
+  width: 160px;
+  height: 70px;
+  border: 1px #e5e5e5 solid;
+  border-radius: 10px;
+  display: flex;
+}
+.serverdetail .tbox .family .one img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.serverdetail .tbox .family .one .oneright .rtop {
+  width: 106px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.serverdetail .tbox .family .one .oneright .rtop span {
+  display: block;
+  font-size: 14px;
+}
+.serverdetail .tbox .family .one .oneright .rtop .age {
+  color: gray;
+  font-size: 10px;
+}
+.serverdetail .tbox .family .one .oneright .rtop img {
+  width: 10px;
+  height: 12px;
+  transform: rotate(-45deg);
+  margin-bottom: 18px;
+}
+.serverdetail .tbox .family .one .oneright p {
+  font-size: 10px;
+  color: gray;
+}
+.serverdetail .bbox {
+  font-size: 12px;
+  width: 100%;
+  height: 220px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.serverdetail .bbox p {
+  font-size: 14px;
+  padding: 8px;
+}
+.serverdetail .bbox .oneRow {
+  width: 100%;
+  height: 48px;
+  display: flex;
+}
+.serverdetail .bbox .oneRow > div {
+  width: 24%;
+  height: 100%;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+.serverdetail .bbox .oneRow > div span {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.serverdetail .bbox .oneRow > div .title {
+  width: 60px;
+  color: gray;
+}
+.serverdetail .foot {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+}
+.serverdetail .foot button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  border: 1px #e5e5e5 solid;
+  background-color: white;
+  color: white;
+}
+.serverdetail .foot .edit {
+  width: 140px;
+  background-color: #2984e8;
+}
+.serverdetail .foot .pass {
+  background-color: #24d161;
+}
+.serverdetail .foot .noPass {
+  background-color: #f06969;
+}
+.serverdetail .foot .back {
+  color: #333;
+  width: 80px;
+}
